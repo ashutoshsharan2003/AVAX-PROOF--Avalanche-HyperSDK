@@ -67,7 +67,7 @@ This command will put the compiled CLI in ./build/token-cli.
 Chain import-anr connects to the Avalanche Network Runner server running in the background and pulls the URIs of all nodes tracking each chain you created.
 
 ## Creation and Minting process
-### Step 1 Asset Creation
+### Step:-1 Asset Creation
 To create an assest run the command:
 ```javascript
 ./build/token-cli action create-asset
@@ -85,7 +85,7 @@ continue (y/n): y
 ```
 <b>NOTE - txID is the assetID of your new asset.</b>
 
-### Step 2 Minting of asset
+### Step:-2 Minting of asset
 To mint the created assest run command:
 ```javascript
 ./build/token-cli action mint-asset
@@ -103,7 +103,7 @@ recipient: token1rvzhmceq997zntgvravfagsks6w0ryud3rylh4cdvayry0dl97nsjzf3yp
 continue (y/n): y
 ✅ txID: 2Pr2Pdmpe8qCas7fxgPFq6VQZJmyiVZabJfwP7CCgeYMJNXcX7
 ```
-### Step3 check balance
+### Step:-3 check balance
 run the command:
 ```javascript
 ./build/token-cli key balance
